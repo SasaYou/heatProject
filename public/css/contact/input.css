@@ -1,0 +1,32 @@
+input{
+    border: 1px solid black;
+}
+textarea{
+    border: 1px solid black;
+}
+.main-container{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.item-contents{
+    width: fit-content;
+    margin: 5% auto;
+    
+}
+
+.container-title{
+    font-size: 32px;
+    font-weight: 600;
+    margin: 5%;
+}
+
+.item-title{
+    text-align: left;
+}
+
+.submit{
+    border: 1px solid black;
+    font-size: 24px;
+    padding: 1% 2%;
+}

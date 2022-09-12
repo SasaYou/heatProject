@@ -1,0 +1,53 @@
+.top-title{
+    margin:2% auto;
+    font-size: 22px;
+    display: block;
+    text-align: center;
+    font-weight: 700;
+}
+
+.top-title p {
+    text-align: left;
+	display: inline-block;
+}
+
+.main-container{
+    display: flex;
+    position:  relative;
+    margin-bottom: 5%;
+}
+
+.container-title{
+    margin-left: 10%;
+}
+
+.container-title h2{
+    font-size: 24px;
+}
+
+.container-title h5{
+    padding: 2%;
+    width: 420px;
+}
+
+.container-ans{
+    margin-top: 15px;
+	position: absolute;
+    right: 5%;
+}
+
+.ansr{
+    text-align: center;
+}
+
+.button{
+    border: 5px double rgb(255, 255, 255);
+    display:inline-block;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    outline: none;
+    padding: 10px 20px;
+    transition:.3s ease-out;
+    margin-bottom: 20px;
+}

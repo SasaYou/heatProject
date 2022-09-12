@@ -1,0 +1,41 @@
+.main{
+    text-align:center;
+}
+.title{
+    font-size: 38px;
+    margin: 5% 0 ;
+    font-weight: 700;
+}
+span{
+    color: crimson;
+}
+.button{
+    border: 5px double rgb(255, 255, 255);
+    display:inline-block;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    outline: none;
+    padding: 10px 20px;
+    transition:.3s ease-out;
+    margin-bottom: 20px;
+}
+
+.button a{
+    color: aliceblue;
+    
+}
+
+.button:hover{
+    background:#666;
+    border-radius:20px; 
+  }
+
+.main p {
+    font-size: 18px;
+    padding-top: 5px;
+}
+
+.x{
+    margin-top: 5%;
+}
