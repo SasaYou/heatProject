@@ -5,33 +5,24 @@
 
 <div class="main-container">
     <div class="container-title">お問合せ</div>
-    <form action="/contact/check" method="post"> 
+    <form action="" method="POST">
         @csrf
         <ul class="item-container">
             <li>
                 <div class="item-contents">
                     <div class="item-title">お名前 :</div>
-                    @error('name')
-                    <span>{{$message}}</span>
-                    @enderror 
-                    <div class="item-input"><input type="text" name="name"></div>
+                    <div class="item-input">{{ $data->name}}</div>
                 </div>
             </li>
             <li><div class="item-contents">
                     <div class="item-title">メールアドレス :</div>
-                    @error('email')
-                    <span>{{$message}}</span>
-                    @enderror 
-                    <div class="item-input"><input type="email" name="email"></div>
+                    <div class="item-input">{{$data->email }}</div>
                 </div>
             </li>
             <li>
                 <div class="item-contents">
                     <div class="item-title">内容 :</div>
-                    @error('contents')
-                    <span>{{$message}}</span>
-                    @enderror 
-                    <div class="item-input"><textarea name="contents"  cols="30" rows="10"></textarea></div> 
+                    <div class="item-input">{{ $data->contents}} </textarea></div> 
                 </div>
             </li>
         </ul>
@@ -42,5 +33,5 @@
 @endsection
 
 @section('style')
-<link rel="stylesheet" href="{{asset('css/contact/input.css')}}">
+<link rel="stylesheet" href="{{asset('css/contact/check.css')}}">
 @endsection

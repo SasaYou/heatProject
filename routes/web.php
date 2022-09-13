@@ -29,4 +29,5 @@ Route::prefix('melancholy')->group(function () {
 //お問合せフォーム
 Route::prefix('contact')->group(function(){
     Route::get('/',[ContactFormController::class,'input']);
+    Route::post('/check',[ContactFormController::class,'check']);
 });
